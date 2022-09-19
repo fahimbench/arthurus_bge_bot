@@ -1,0 +1,30 @@
+{
+  "name": "nodebot2",
+  "version": "1.0.0",
+  "description": "bot test",
+  "main": "bot.js",
+  "scripts": {
+    "start": "supervisor index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fahim",
+  "license": "ISC",
+  "dependencies": {
+    "@fahimbench/aki-api2": "^1.0.2",
+    "aki-api": "^2.1.1",
+    "axios": "^0.19.0",
+    "botkit": "^0.6.21",
+    "cleverbot.io": "^1.0.4",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "glob": "^7.1.4",
+    "moment": "^2.24.0",
+    "natural": "^0.6.3",
+    "node-cron": "^2.0.3",
+    "querystring": "^0.2.0",
+    "readline-sync": "^1.4.10",
+    "supervisor": "^0.12.0"
+  }
+}
